@@ -11,7 +11,7 @@ import com.springboot.example.service.UserService;
 
 
 @Controller
-//@RequestMapping(value = "/login")
+@RequestMapping(value = "/login")
 public class LoginController {
 	
 	@Autowired
