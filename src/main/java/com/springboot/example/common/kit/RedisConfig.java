@@ -1,4 +1,4 @@
-package com.springboot.example.common;
+package com.springboot.example.common.kit;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -106,7 +106,7 @@ public class RedisConfig {
 	     */
 	    @Bean
 	    public RedisTemplate<String, Object> functionDomainRedisTemplate(RedisConnectionFactory redisConnectionFactory) {
-	        RedisTemplate<String, Object> redisTemplate = new RedisTemplate<>();
+	        RedisTemplate<String, Object> redisTemplate = new RedisTemplate<String, Object>();
 	        initDomainRedisTemplate(redisTemplate, redisConnectionFactory);
 	        return redisTemplate;
 	    }

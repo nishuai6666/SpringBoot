@@ -1,4 +1,4 @@
-package com.springboot.example.common;
+package com.springboot.example.common.kit;
 
 import java.util.List;
 import java.util.Map;

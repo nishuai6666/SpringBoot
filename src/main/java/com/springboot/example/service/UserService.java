@@ -3,7 +3,7 @@ package com.springboot.example.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.springboot.example.common.RedisUtil;
+import com.springboot.example.common.kit.RedisUtil;
 import com.springboot.example.dao.UserDao;
 import com.springboot.example.dto.User;
 
